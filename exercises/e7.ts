@@ -1,6 +1,6 @@
 // SPACE DATA EXERCISE 7
 
-import { Planet } from "../types";
+import { Planet } from "../data/data";
 
 // Return an array of all Planets names that have moons
 export function getPlanetsWithMoons(planets: Planet[]) {

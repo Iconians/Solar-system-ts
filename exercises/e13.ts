@@ -2,7 +2,7 @@
 // Return the average temperature of all the Planets
 // Return example: 132.53
 
-import { AllData } from "../types";
+import { AllData } from "../data/data";
 
 export function getAveragePlanetsTemperature(data: AllData) {
   return (

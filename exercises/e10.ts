@@ -2,7 +2,7 @@
 // Return a given asteroid object of data
 // make sure that you destructure your parameters
 
-import { AllData } from "../types";
+import { AllData } from "../data/data";
 interface AsteroidDataInput {
   allData: AllData;
   asteroidName: string;

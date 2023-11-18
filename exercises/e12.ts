@@ -1,7 +1,7 @@
 // SPACE DATA EXERCISE 12
 // Return the sum of all moons for all planets
 
-import { AllData } from "../types";
+import { AllData } from "../data/data";
 
 // Return example: 42
 export const allPlanetsMoonsCount = (data: AllData) => {

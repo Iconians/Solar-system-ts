@@ -1,7 +1,8 @@
-import { Planet } from "../types";
 // SPACE DATA EXERCISE 1
 // Return an array of all Planets' names
 // Return example: ['name1', 'name2', ... , 'nameN']
+
+import { Planet } from "../data/data";
 
 export function getPlanetNames(planets: Planet[]) {
   return planets.map((planet) => planet.name);

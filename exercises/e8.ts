@@ -2,8 +2,7 @@
 // Return a Planet by a given moon name
 //  must have destructured parameters
 
-import { i } from "vitest/dist/index-5aad25c1";
-import { Planet } from "../types";
+import { Planet } from "../data/data";
 
 interface PlanetByMoonInput {
   planets: Planet[];
